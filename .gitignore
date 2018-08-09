@@ -1,4 +1,91 @@
-# History files
+# Mac
+.DS_Store
+
+# Linux KDE directory preferences
+.directory
+*~
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+
+# Intermediate documents
+*.dvi
+# these rules might exclude image files for figures etc.
+*.ps
+*.eps
+# *.pdf
+
+# Bibliography auxiliary files (bibtex/biblatex/biber)
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+*.bst
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+
+
+# Local untracked files
+*.xla
+*.bak
+*.swp
+*.spl
+*.shd
+*.cfg
+
+*.tmp
+*.old
+
+*.sh
+*.csh
+*.out
+
+*.zip
+*.tgz
+*.tar
+*.gz
+
+*.rtf
+*.doc
+#*.docx
+*.ppt
+*.pptx
+
+*.txt
+
+*.htm
+*.html
+
+obsolete/
+private/
+
+# R History files
 .Rhistory
 .Rapp.history
 

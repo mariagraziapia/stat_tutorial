@@ -1,5 +1,6 @@
 # Required package
 library(kSamples)
+# Conflict with ad.test in nortest package
 
 # Define three data distributions
 s1<-c(1.0066, -0.9587, 0.3462, -0.2653, -1.3872) 

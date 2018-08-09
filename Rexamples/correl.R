@@ -20,16 +20,16 @@ print(paste("Kendall tau:", kendallCorr))
 spearmanCorr<-cor(data1, data2,  method = "spearman", use = "complete.obs")
 print(paste("Spearman rho:", spearmanCorr))
 
-pdf("correl.pdf", width=15/2.54, height=12/2.54)
+# pdf("correl.pdf", width=15/2.54, height=12/2.54)
 plot(xPlot, data1, type="l", tck=0.01, lwd=1, xlab="X", ylab="Y", las=1, ylim=c(0., max(data1+err1))) 
 lines(xPlot, data1, col="black", lwd=2, lty=1)
 
 points(xPlot, data1, pch=19, col="black")
 points(xPlot, data2, pch=15, col="red")
 # Error bars
-segments(xPlot, data1+err1, x, data1-err1)
-segments(xPlot, data2+err2, x, data2-err2)
-dev.off()
+segments(xPlot, data1+err1, xPlot, data1-err1)
+segments(xPlot, data2+err2, xPlot, data2-err2)
+# dev.off()
 
 # Chi-square test
 piece<-((data1-data2)^2)/(err1^2 + err2^2)

@@ -14,3 +14,4 @@ http://creativecommons.org/licenses/by-sa/4.0/
 ## Venues
 * IEEE NSS-MIC 2017, Workshop on Software Reliability, Atlanta, GA, USA
 * RPSD 2018, Santa Fe, NM, USA
+* ICTP-IAEA Advanced School/Workshop on Computational Nuclear Science and Engineering, Trieste, 2022
